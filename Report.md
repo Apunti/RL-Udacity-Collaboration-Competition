@@ -1,8 +1,8 @@
 [//]: # (Image References)
 
-[image1]: https://github.com/Apunti/RL-Udacity-Collaboration-Competition/master/images/DDPG.png "DDPG"
-[image2]: https://github.com/Apunti/RL-Udacity-Collaboration-Competition/master/images/plot.png "Plot"
-[image3]: https://github.com/Apunti/RL-Udacity-Collaboration-Competition/master/images/log.png "Log"
+[image1]: https://github.com/Apunti/RL-Udacity-Collaboration-Competition/blob/master/images/DDPG.png "DDPG"
+[image2]: https://github.com/Apunti/RL-Udacity-Collaboration-Competition/blob/master/images/plot.png "Plot"
+[image3]: https://github.com/Apunti/RL-Udacity-Collaboration-Competition/blob/master/images/log.png "Log"
 
 # Report
 
