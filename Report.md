@@ -1,10 +1,12 @@
 [//]: # (Image References)
 
-[image1]: https://github.com/fdasilva59/Udacity-DRL-Collaboration-and-Competition/blob/master/images/DDPG.svg "DDPG"
+[image1]: https://github.com/Apunti/RL-Udacity-Collaboration-Competition/master/images/DDPG.png "DDPG"
+[image2]: https://github.com/Apunti/RL-Udacity-Collaboration-Competition/master/images/plot.png "Plot"
+[image3]: https://github.com/Apunti/RL-Udacity-Collaboration-Competition/master/images/log.png "Log"
 
 # Report
 
-# Learning Algorithm
+### Learning Algorithm
 The algorithm used to solve this environment is an off-policy method called DDPG (Deep Deterministic Policy Gradient) presented in
 [this paper](https://arxiv.org/abs/1509.02971). Two handle the two agents, the input is the concatenation of both states (size 48) and the action is of size (4). Taking into account that we then resize the output to a (2,2) matrix to give it to the Unity environment.
 
@@ -29,10 +31,13 @@ The hyperparameters used are:
 - ``LR_ACTOR = 3e-4``
 - ``LR_CRITIC = 3e-4``
 
-# Plot of rewards
+### Plot of rewards
+
+![Plot][image2]
+![Log][image3]
 
 We can see that the environment is solved around the episode 1800.
 
-# Ideas for Future Works
+### Ideas for Future Works
 
 To improve the current implementation we could use a MADDPG and see its performance. Probably by considering two agents will lead to better results and faster convergence. Moreover, we could try to add prioritized experience replay. For now, the model takes a random sample from the buffer, but by using prioritized experience replay, the model should converge faster.

@@ -20,7 +20,6 @@ WEIGHT_DECAY = 0 #1e-2       # L2 weight decay
 UPDATE_EVERY = 5
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-print('Last Version')
 
 class Agent():
     """Interacts with and learns from the environment."""
